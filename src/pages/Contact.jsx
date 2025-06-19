@@ -1,6 +1,6 @@
 import React from 'react'
 import Navbar from '../components/navbar/Navbar'
-import ContactBanner from '../components/contactbanner/contactbanner'
+import ContactBanner from '../components/contactbanner/ContactBanner'
 import ContactInfo from '../components/contactinfo/ContactInfo'
 import Discount from '../components/discount/Discount'
 import Info from '../components/info/Info'
