@@ -1,0 +1,50 @@
+.customer-reviews {
+    margin-top: 1rem;
+    padding: 4rem 2rem;
+    background-image: url('../../assets/images/review.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    position: relative;
+
+}
+
+.customer-reviews::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    z-index: 1;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.customer-reviews .swiper {
+    position: relative;
+    z-index: 2;
+}
+
+.section-title {
+    position: relative;
+    z-index: 2;
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 768px) {
+    .customer-reviews {
+        padding: 2rem 1rem;
+    }
+
+    .section-title {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .section-title {
+        font-size: 1.3rem;
+    }
+}

@@ -1,0 +1,118 @@
+.contact-section {
+    background-color: var(--light-color);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 4rem 2rem;
+    gap: 30px;
+    flex-wrap: wrap;
+    /* Mobilde yan yana değil alt alta gelsin */
+}
+
+.contact-left-side {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.contact-right-side {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+    min-width: 300px;
+    max-width: 500px;
+}
+
+.contact-card {
+    max-width: 300px;
+    width: 100%;
+}
+
+.contact-card h5 {
+    font-family: var(--font-logo);
+    font-size: 1.2rem;
+    margin-bottom: 0.7rem;
+}
+
+.contact-card p {
+    color: var(--gray-color);
+}
+
+.contact-card p:hover {
+    color: var(--dark-color);
+    cursor: pointer;
+}
+
+.contact-right-side h2 {
+    font-family: var(--font-logo);
+}
+
+.contact-right-side p {
+    margin: 20px 0;
+    color: var(--gray-color);
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+.width-50 {
+    width: 48%;
+    outline: none;
+}
+
+input {
+    padding: 10px;
+    border: 2px solid lightgray;
+    outline: none;
+    border-radius: 8px;
+    font-size: 16px;
+    color: var(--dark-color);
+    width: 100%;
+    margin-bottom: 0.5rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-submit {
+    padding: 10px;
+    border: 2px solid var(--light-color);
+    border-radius: 8px;
+    font-size: 16px;
+    background-color: var(--accent-blue);
+    color: var(--light-color);
+    width: 100%;
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+/* ------------------- RESPONSIVE ------------------- */
+@media (max-width: 768px) {
+    .contact-section {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-left-side {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .input-group {
+        flex-direction: column;
+    }
+
+    .width-50 {
+        width: 100%;
+    }
+
+    .contact-right-side {
+        width: 100%;
+        max-width: 100%;
+        padding: 0 1rem;
+    }
+}

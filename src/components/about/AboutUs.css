@@ -1,0 +1,87 @@
+.aboutus-banner {
+    background-image: url('../../assets/images/aboutus.jpg');
+    width: 100%;
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(1, 1, 1, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.aboutus-text {
+    text-align: center;
+    color: var(--light-color);
+    margin-left: 5rem;
+    z-index: 1;
+
+}
+
+.aboutus-text h1 {
+    font-size: 3rem;
+    font-family: var(--font-logo);
+    color: var(--light-color);
+    margin-top: 10px;
+}
+
+.breadcrumb {
+    font-size: 1rem;
+    color: var(--light-color);
+}
+
+.breadcrumb span {
+    color: var(--accent-blue);
+}
+
+/* Responsive */
+
+@media (max-width: 768px) {
+    .aboutus-banner {
+        height: 300px;
+    }
+
+    .overlay {
+        justify-content: center;
+        padding: 0 1rem;
+    }
+
+    .aboutus-text {
+        margin-left: 0;
+        text-align: center;
+        font-family: var(--font-logo);
+        color: var(--light-color);
+    }
+
+    .breadcrumb {
+        font-size: 0.9rem;
+    }
+
+    .aboutus-text h1 {
+        font-size: 1.8rem;
+
+    }
+}
+
+@media (max-width: 480px) {
+    .aboutus-banner {
+        height: 250px;
+    }
+
+    .breadcrumb {
+        font-size: 0.8rem;
+    }
+
+    .aboutus-text h1 {
+        font-size: 1.5rem;
+    }
+}

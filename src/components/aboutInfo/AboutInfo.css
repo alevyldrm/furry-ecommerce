@@ -1,0 +1,63 @@
+.desc p,
+.des-text p {
+    font-size: 16px;
+    line-height: 1.6;
+    background-color: var(--light-color);
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 50px;
+}
+
+/* Columns Section */
+
+.aboutInfo-columns {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    /* Sütunlar arasındaki boşluk */
+    margin-top: 30px;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+
+}
+
+.column {
+
+    flex: 1;
+    text-align: justify;
+}
+
+.column h2 {
+    font-family: var(--font-logo);
+    font-size: 24px;
+    color: var(--dark-color);
+    margin-bottom: 15px;
+}
+
+.column p {
+    font-size: 16px;
+    font-family: var(--font-main);
+}
+
+
+.des-text h2 {
+    margin-top: 50px;
+    font-size: 28px;
+    color: var(--dark-color);
+    font-family: var(--font-logo);
+    padding: 50px 50px 0px 50px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .aboutus-columns {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
+}

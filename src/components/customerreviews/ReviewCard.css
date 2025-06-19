@@ -1,0 +1,51 @@
+.review-card {
+    padding: 2rem;
+    border-radius: 16px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.review-image {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+
+.review-name {
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+    font-family: var(--font-logo);
+    font-size: 1.1rem;
+}
+
+.review-comment {
+    font-style: italic;
+    margin-bottom: 1rem;
+    color: #444;
+    font-size: 0.95rem;
+    line-height: 1.4;
+}
+
+.review-rating {
+    color: gold;
+    font-size: 1.2rem;
+}
+
+/* RESPONSIVE */
+
+@media (max-width: 600px) {
+    .review-card {
+        padding: 1rem;
+    }
+
+    .review-image {
+        width: 60px;
+        height: 60px;
+    }
+
+    .review-rating {
+        font-size: 1rem;
+    }
+}

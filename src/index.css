@@ -1,0 +1,17 @@
+:root {
+  --primary-color: #dbbbaa;
+  --dark-color: #2f2f2f;
+  --light-color: #ffffff;
+  --gray-color: #777;
+  --accent-color: #e6c9c6;
+  --accent-blue: #6c8ae4;
+
+  --font-logo: 'Chewy', cursive;
+  --font-main: 'Nunito', sans-serif;
+}
+
+body {
+  font-family: var(--font-main);
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}

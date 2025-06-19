@@ -1,0 +1,83 @@
+.foods-btn {
+    width: 8rem;
+    padding: 0.7rem;
+    background-color: var(--primary-color);
+    margin-top: 1.5rem;
+    margin-right: 1.2rem;
+    border-radius: 1.2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.foods-btn:hover {
+    transform: scale(1.05);
+}
+
+.clothing-btn {
+    width: 8rem;
+    padding: 0.7rem;
+    background-color: var(--accent-blue);
+    margin-right: 1.2rem;
+    border-radius: 1.2rem;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.clothing-btn:hover {
+    transform: scale(1.05);
+}
+
+.medication-btn {
+    width: 8rem;
+    padding: 0.7rem;
+    background-color: var(--accent-color);
+    border-radius: 1.2rem;
+    border: none;
+    margin-right: 1.2rem;
+    color: white;
+    cursor: pointer;
+}
+
+.medication-btn:hover {
+    transform: scale(1.05);
+}
+
+.all-btn {
+    width: 8rem;
+    padding: 0.7rem;
+    background-color: var(--dark-color);
+    border-radius: 1.2rem;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+}
+
+.all-btn:hover {
+    transform: scale(1.05);
+}
+
+/* RESPONSIVE  */
+
+@media (max-width: 768px) {
+    .category-btns {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .foods-btn,
+    .clothing-btn,
+    .medication-btn,
+    .all-btn {
+        width: 80%;
+        /* Mobilde daha esnek ve ortalanmış */
+        margin-right: 0;
+        /* margin-right kaldırılıyor çünkü dikey dizilim var */
+    }
+}
