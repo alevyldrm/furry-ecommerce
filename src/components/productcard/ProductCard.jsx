@@ -4,9 +4,7 @@ import { useNavigate } from 'react-router-dom';
 
 function ProductCard({ product }) {
     const navigate = useNavigate();
-    const handleCategoryClick = () => {
-        navigate(`/category/${product.category.toLowerCase()}`)
-    }
+ 
 
 
     return (
@@ -15,7 +13,7 @@ function ProductCard({ product }) {
             <h3 className="product-card__title">{product.title}</h3>
             <p className="product-card__price">{product.price}</p>
             <button className='product-card__add'>Add to Card</button>
-            <button className='product-card__category' onClick={handleCategoryClick}>View more in {product.category}</button>
+            <button className='product-card__category'>{product.category}</button>
         </div>
     );
 }
