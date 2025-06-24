@@ -1,12 +1,32 @@
-# React + Vite
+# 🛍️ Furry E-Commerce
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern ve şık bir kullanıcı arayüzüyle hazırlanmış, hayvan temalı örnek bir e-ticaret platformu. Bu proje, React ve Vite kullanılarak geliştirilmiş; ürün listeleme, kategori filtreleme, sepete ekleme gibi temel e-ticaret fonksiyonlarını içermektedir.
 
-Currently, two official plugins are available:
+## 🌐 Canlı Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+👉 [furryshop.netlify.app](https://furryshop.netlify.app/)
 
-## Expanding the ESLint configuration
+## ⚙️ Kullanılan Teknolojiler
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React** – UI oluşturma
+- **Vite** – Geliştirme ortamı
+- **React Router** – Sayfa yönlendirme
+- **Context API** – Global state yönetimi
+- **Netlify** – Canlı demo yayını
+
+## 🚀 Kurulum ve Geliştirme
+
+Bu projeyi kendi bilgisayarınızda çalıştırmak için:
+
+```bash
+# 1. Depoyu klonlayın
+git clone https://github.com/alevyldrm/furry-ecommerce.git
+
+# 2. Dizine girin
+cd furry-ecommerce
+
+# 3. Bağımlılıkları yükleyin
+npm install
+
+# 4. Uygulamayı başlatın
+npm run dev
