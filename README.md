@@ -11,7 +11,6 @@ Hayvan temalı örnek bir e-ticaret platformu. Bu proje, React ve Vite kullanıl
 - **React** – UI oluşturma
 - **Vite** – Geliştirme ortamı
 - **React Router** – Sayfa yönlendirme
-- **Context API** – Global state yönetimi
 - **Netlify** – Canlı demo yayını
 
 ## 🚀 Kurulum ve Geliştirme
