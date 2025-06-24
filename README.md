@@ -1,6 +1,6 @@
 # 🛍️ Furry E-Commerce
 
-Modern ve şık bir kullanıcı arayüzüyle hazırlanmış, hayvan temalı örnek bir e-ticaret platformu. Bu proje, React ve Vite kullanılarak geliştirilmiş; ürün listeleme, kategori filtreleme, sepete ekleme gibi temel e-ticaret fonksiyonlarını içermektedir.
+Hayvan temalı örnek bir e-ticaret platformu. Bu proje, React ve Vite kullanılarak geliştirildi. Ürün listeleme, kategori filtreleme gibi temel e-ticaret fonksiyonlarını içermektedir.
 
 ## 🌐 Canlı Demo
 
